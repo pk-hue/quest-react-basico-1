@@ -16,10 +16,6 @@ Essa é a minha solução para o desafio React basico.
 
 - Completar o projeto da maneira mais fiel possível como pedido na quest.
 
-### Links
-
-- Solução: [Ir para solução]()
-
 ### Tecnologias usadas
 
 <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
