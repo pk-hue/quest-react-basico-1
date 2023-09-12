@@ -24,7 +24,7 @@ Essa é a minha solução para o desafio React basico.
 
 ### Pratica de Aprendizado
 
-Nesse projeto foi possível por em prática em especial algumas tecnologias de React, sendo assim possível aprender um pouco de tudo sobre esse framework sobre interativo.  
+Nesse projeto foi possível por em prática em especial algumas tecnologias de React, sendo assim possível aprender um pouco de tudo sobre esse framework super interativo.  
 
 ### Habilidades em Desenvolvimento
 
