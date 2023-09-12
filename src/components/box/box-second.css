@@ -1,0 +1,18 @@
+.box-cnt{
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #4548f5;
+    border: 1px solid #000000;
+}
+
+.box-cnt h2{
+    color: #fff;
+}
+.box-cnt .text-cnt{
+    color: #ff00dd;
+    font-weight: 500;
+    text-transform: uppercase;
+}

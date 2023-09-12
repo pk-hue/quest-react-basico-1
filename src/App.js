@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Boxsecond from './components/box/box-second';
+import Box from './components/box/box';
+import './components/button/button.css'
 
-function App() {
+
+
+const App = () => {
+  const [showComponent, setShowComponent] = useState(true);
+
+  const handleClick = () => {
+    setShowComponent(!showComponent);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <button className='btn' onClick={handleClick}>Motrar texto</button>
+      {showComponent ?  <Box title='Parágrafo abaixo' content="lorem ipsum dolor sit amet consectetur adipisicing elit. fugit dolorum quasi voluptatum id tenetur delectus tempore enim officiis corrupti, unde ea est quidem earum" /> :   <Boxsecond title='Parágrafo abaixo' content='lorem ipsum dolor sit amet consectetur adipisicing elit. fugit dolorum quasi voluptatum id tenetur delectus tempore enim officiis corrupti, unde ea est quidem earum'/>}
     </div>
   );
-}
+};
 
 export default App;
