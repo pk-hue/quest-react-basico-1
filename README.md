@@ -4,7 +4,6 @@ Essa é a minha solução para o desafio React basico.
 
 ## Sumário
 
-
 - [Visão Geral](#visão-geral)
   - [Desafio](#desafio)
   - [Links](#links)
